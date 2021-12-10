@@ -36,6 +36,7 @@ function nextSequence() {
 function startOver() {
   level = 0;
   gamePattern = [];
+  userClickedPatter = [];
 }
 
 function checkAnswer(currentLevel) {
